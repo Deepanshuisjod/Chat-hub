@@ -1,0 +1,25 @@
+header {
+    font-family:Poppins, system-ui, sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#chat-hub {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    
+}
