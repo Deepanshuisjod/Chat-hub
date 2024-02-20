@@ -4,22 +4,30 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
-    border-color: black;
+    font-size: 35px; 
 }
 
-#chat-hub {
-    font-size: 1.5em;
-    margin-left: 20px;
-}
 
 nav {
     display: flex;
+    font-size: 30px;
 }
 
 nav a {
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-    
+    font-size: 20px;
+}
+
+.qlp {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+form {
+    margin-top: 100px;
+    display: block;
+    align-items: center;
 }
