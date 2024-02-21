@@ -26,8 +26,96 @@ nav a {
     font-size: 40px;
 }
 
-form {
+.formcontainer {
     margin-top: 100px;
-    display: block;
-    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.list {
+    padding: 15px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.age {
+    width: 150px;
+}
+
+label {
+    font-size: 25px;
+}
+button {
+    width: 110px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.featureheading {
+    text-align: center;
+    font-size: 50px;
+}
+
+.featurecontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.f1,.f2,.f3 {
+    height: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+
+  h3 {
+    font-size: 1.2em;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: #66ccff;
+  }
+
+  .footer-bottom {
+    margin-top: 20px;
+  }
