@@ -1,3 +1,7 @@
+body {
+  background: rgb(186,188,189);
+background: linear-gradient(90deg, rgba(186,188,189,1) 35%, rgba(123,208,226,1) 100%);
+}
 header {
     font-family:Poppins, system-ui, sans-serif;
     padding: 10px;
@@ -5,8 +9,12 @@ header {
     justify-content: space-between;
     align-items: center;
     font-size: 35px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
 }
 
+.tophead:hover{
+  color: #128bc7;
+}
 
 nav {
     display: flex;
@@ -26,9 +34,16 @@ nav a {
     font-size: 40px;
 }
 
+.logo {
+  display: block; 
+  margin: 0 auto;
+  width: 30%; 
+  height: 20%;
+}
+
 .formcontainer {
-    margin-top: 100px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 10px;
 }
 
 .list {
@@ -75,47 +90,47 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-  }
+}
 
-  .footer-content {
+.footer-content {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
+}
 
 
-  h3 {
+h3 {
     font-size: 1.2em;
     border-bottom: 2px solid #000000;
     padding-bottom: 5px;
     margin-bottom: 10px;
     text-align: center;
-  }
+}
 
-  p {
+p {
     font-size: 0.9em;
     line-height: 1.5;
-  }
+}
 
-  ul {
+ul {
     list-style: none;
     padding: 0;
-  }
+}
 
-  li {
+li {
     margin-bottom: 8px;
-  }
+}
 
-  a {
+a {
     color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
-  }
+}
 
-  a:hover {
+a:hover {
     color: #66ccff;
-  }
+}
 
-  .footer-bottom {
+.footer-bottom {
     margin-top: 20px;
-  }
+}
