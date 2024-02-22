@@ -3,15 +3,16 @@ import styles from './LandingPage.module.css'
 import img1 from './images/usf.svg'
 import img2 from './images/msg.svg'
 import img3 from './images/security.svg'
-
+import img4 from './images/logo.png'
 const min_age = 18;
 const max_age = 99;
+
 
 export default function LandingPage() {
   return (
     <body>
         <header>
-          <div>ChatHub</div>
+          <div className={styles.tophead}>ChatHub</div>
             <nav>
                 <a href="#">Home</a>
                 <a href="#">About</a>
@@ -19,6 +20,7 @@ export default function LandingPage() {
             </nav>
         </header>
         <p className={styles.qlp}>Chat seamlessly, connect effortlessly – your perfect conversation starts here</p>
+        <img src={img4} className={styles.logo}></img>
         <form>
           <div className={styles.formcontainer}>
             <div className={styles.list}>
@@ -29,7 +31,7 @@ export default function LandingPage() {
             <div className={styles.list}>
               <label>Your Gender : </label>
               <label className={styles.gender}>
-                <input type="radio" name="gender" className={styles.radio} />
+                <input type="radio" name="gender" className={styles.radio} required/>
                 Male
               </label>
               <label className={styles.list}>
@@ -51,6 +53,7 @@ export default function LandingPage() {
             <div className={styles.list}>
               <label><button className={styles.buttonclass} type="submit">Submit</button></label>
             </div>
+
           </div>
         </form>
         <br/>
@@ -77,10 +80,6 @@ export default function LandingPage() {
 
         <footer>
     <div class="footer-content">
-      <div class="footer-section">
-        <h3>Welcome to ChatHub – where connections come alive! Our mission is to simplify and enhance your communication experience by providing a seamless platform for real-time conversations.</h3>
-        <p>Welcome to ChatHub, where communication is made simple and enjoyable. Connect with your friends, family, and colleagues seamlessly!</p>
-      </div>
 
       <div class="footer-section">
         <h3>Quick Links</h3>
